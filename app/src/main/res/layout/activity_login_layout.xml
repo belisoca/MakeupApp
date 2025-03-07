@@ -19,6 +19,9 @@
         android:src="@drawable/makeup" />
 
     <EditText
+        android:id="@+id/edtLoginEmail"
+        android:paddingRight="10sp"
+        android:drawableEnd="@drawable/baseline_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Insira seu email"
@@ -26,6 +29,9 @@
         android:paddingLeft="10sp" />
 
     <EditText
+        android:id="@+id/edtLoginSenha"
+        android:paddingRight="10sp"
+        android:drawableEnd="@drawable/baseline_lock"
         android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,6 +42,8 @@
 
 
     <Button
+        android:id="@+id/btnEntrar"
+        android:padding="15sp"
         android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,6 +51,9 @@
         android:text="Entrar" />
 
     <Button
+        android:id="@+id/btnSair"
+        android:padding="15sp"
+        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
